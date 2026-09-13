@@ -18,7 +18,7 @@ public final class Main {
         StudyPlan courseworkPlan = director.createCourseworkPlan(builder);
 
         printPlan("Director configuration 1", examPlan);
-        printPlan("Director configuration 2", courseworkPlangit add .);
+        printPlan("Director configuration 2", courseworkPlan);
         printPlan("Custom client configuration", createCustomPlan());
         demonstrateValidation();
     }
