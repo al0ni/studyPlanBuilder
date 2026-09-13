@@ -15,10 +15,10 @@ public final class Main {
         StudyPlanDirector director = new StudyPlanDirector();
 
         StudyPlan examPlan = director.createExamPreparationPlan(builder);
-        StudyPlan balancedPlan = director.createCourseworkPlan(builder);
+        StudyPlan courseworkPlan = director.createCourseworkPlan(builder);
 
         printPlan("Director configuration 1", examPlan);
-        printPlan("Director configuration 2", balancedPlan);
+        printPlan("Director configuration 2", courseworkPlangit add .);
         printPlan("Custom client configuration", createCustomPlan());
         demonstrateValidation();
     }
