@@ -15,7 +15,7 @@ public final class Main {
         StudyPlanDirector director = new StudyPlanDirector();
 
         StudyPlan examPlan = director.createExamPreparationPlan(builder);
-        StudyPlan balancedPlan = director.createBalancedWeeklyPlan(builder);
+        StudyPlan balancedPlan = director.createCourseworkPlan(builder);
 
         printPlan("Director configuration 1", examPlan);
         printPlan("Director configuration 2", balancedPlan);

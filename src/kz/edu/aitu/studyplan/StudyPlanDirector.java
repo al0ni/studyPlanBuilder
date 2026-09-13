@@ -21,10 +21,10 @@ public final class StudyPlanDirector {
                 .build();
     }
 
-    public StudyPlan createBalancedWeeklyPlan(StudyPlanBuilder builder) {
+    public StudyPlan createCourseworkPlan(StudyPlanBuilder builder) {
         return prepare(builder)
-                .setTitle("SDP Labs and Homeworks")
-                .setLearningGoal("Close all deadlines for Software Design Patterns")
+                .setTitle("SDP assignments")
+                .setLearningGoal("Complete SDP assignments on time")
                 .setDifficulty(Difficulty.BEGINNER)
                 .addResource("AITU Moodle presentations")
                 .addResource("StackOverflow and GitHub repos")
